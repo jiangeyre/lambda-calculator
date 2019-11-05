@@ -17,6 +17,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-left: 4%;
     padding-right: 8%;
     font-size: 5.0rem;
   }
