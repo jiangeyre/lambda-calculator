@@ -26,7 +26,9 @@ function App() {
         <div className="buttons">
           <div>
             <Specials />
-            <Numbers />
+            <div className="numbers">
+              <Numbers />
+            </div>
           </div>
           <Operators />
         </div>
