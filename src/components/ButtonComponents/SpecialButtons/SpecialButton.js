@@ -2,7 +2,7 @@ import React from "react";
 
 const SpecialButton = (props) => {
   return (
-    <button className={"button special-button"} value={props.value} aria-label={`${props.label} key`}>
+    <button className="button special-button">
       {props.label}
     </button>
   );
