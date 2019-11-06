@@ -17,7 +17,7 @@ const Numbers = () => {
     <div>
       <div className="numbers-div">
         {numberState.map((number, index) => {
-          return <NumberButton value={number} key={number} label={number} />
+          return <NumberButton value={number} key={index} label={number} />
         })}
       </div>
     </div>

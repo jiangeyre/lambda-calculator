@@ -15,7 +15,7 @@ const Specials = () => {
       <div className="specials">
         {
           specialState.map((spec, ind) => {
-            return <SpecialButton value={spec} key={spec} label={spec}/>
+            return <SpecialButton value={spec} key={ind} label={spec}/>
           })
         }
       </div>
