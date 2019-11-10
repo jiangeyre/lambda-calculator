@@ -1,9 +1,11 @@
 import React from "react";
 
 const SpecialButton = (props) => {
-  console.log("seocial", props);
-  
+  console.log("special", props);
+
   return (
+
+
     <button className="specialButt">
       {props.text}
     </button>
