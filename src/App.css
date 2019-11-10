@@ -1,68 +1,81 @@
+.App {
+  background-color: #c00025;
+}
+
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 400px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 325px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-left: 5%;
-    padding-right: 8%;
-    font-size: 5.0rem;
+  margin-top: 25px;
+  height: 100px;
+  width: 325px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 5%;
+  padding-right: 8%;
+  font-size: 5.0rem;
 }
 .buttons {
-    padding: 10%;
-    padding-bottom: 5%;
-    width: 350px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
+  padding: 10%;
+  padding-bottom: 5%;
+  width: 350px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 
 }
 .specials {
-    display: flex;
-    justify-content: space-around;
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
 }
 .numbers {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+  width: 250px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 5%;
+  margin-top: -72.5%;
 }
+
 .operators {
-    display: flex;
-    flex-flow: column nowrap;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: -23.5%;
+  margin-left: 75%;
+  align-content: space-between;
 }
-.button {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    font-size: 2em;
-    color: ivory;
-    border: 1px solid black;
-    box-shadow: 0px 2px 2px black;
-    outline: none;
+button {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  font-size: 2em;
+  color: ivory;
+  border: 1px solid black;
+  box-shadow: 0px 2px 2px black;
+  outline: none;
 }
-.number-button{
-    background-color: #003C76;
+.numberButt{
+  background-color: #003C76;
 }
-.special-button{
-    background-color: #0061AD;
+.specialButt{
+  background-color: #0061AD;
 }
-.operator-button{
-    background-color: #00B5E2;
+.operatorButt{
+  background-color: #00B5E2;
 }
 .numbers button:nth-child(10) {
-    border-radius: 50px;
-    width: 150px;
+  border-radius: 50px;
+  width: 150px;
 }
